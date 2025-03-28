@@ -1,5 +1,5 @@
 import React from 'react';
-import {Menu, X, Mail, Phone, MapPin, Clock, Building, Key} from 'lucide-react';
+import {Menu, X, Mail, Phone, MapPin, Clock, Building, Key, Currency, DollarSign, Euro} from 'lucide-react';
 import {useState} from 'react';
 
 function App() {
@@ -156,12 +156,26 @@ function App() {
                             </p>
                         </div>
 
+                        {/* Tarifs des consultations */}
+                        <div className="bg-white rounded-2xl p-6 shadow-lg md:col-span-2">
+                            <Euro className="w-8 h-8 text-[#C7DFD1] mb-4"/>
+                            <h3 className="text-2xl font-display font-semibold mb-4">Tarifs des consultations</h3>
+                            <p className="text-gray-600 text-lg mb-4">
+                                Consultation standard : <span className="font-semibold">60€</span><br/>
+                                Consultation à domicile : <span className="font-semibold">70€</span><br/>
+                                Partenariats (entreprises, clubs sportifs) : <span className="font-semibold">50€</span>
+                            </p>
+                            <p className="text-gray-600" style={{ textAlign: 'justify' }}>
+                                * renseignez vous auprès de votre mutuelle pour remboursement
+                            </p>
+                        </div>
+
                         {/* Adresse avec carte et informations supplémentaires */}
                         <div className="bg-white rounded-2xl p-6 shadow-lg md:col-span-2">
                             <div className="grid md:grid-cols-2 gap-4">
                                 {/* Colonne gauche : adresse et infos */}
                                 <div>
-                                    <MapPin className="w-8 h-8 text-[#C7DFD1] mb-4"/>
+                                    <MapPin className="w-8 h-8 text-[#C1DCEF] mb-4"/>
                                     <h3 className="text-2xl font-display font-semibold mb-4">Adresse</h3>
                                     <p className="text-gray-600 text-center text-lg mb-4">
                                         Bâtiment L'Ultra<br/>
@@ -196,7 +210,7 @@ function App() {
 
                     {/* Nouvelle card : Notre Établissement en pleine largeur */}
                     <div className="bg-white rounded-2xl p-6 shadow-lg md:col-span-2">
-                        <Building className="w-8 h-8 text-[#C1DCEF] mb-4"/>
+                        <Building className="w-8 h-8 text-[#C7DFD1] mb-4"/>
                         <h3 className="text-2xl font-display font-semibold mb-4">Notre Établissement</h3>
                         <div className="grid md:grid-cols-4 gap-4">
                             {[
@@ -437,11 +451,6 @@ function App() {
                                 question: "L'ostéopathie est-elle remboursée ?",
                                 answer:
                                     "Les séances d'ostéopathie ne sont pas remboursées par la sécurité sociale. Cependant, de nombreuses mutuelles prennent en charge tout ou partie des frais. Une facture vous sera remise pour votre remboursement."
-                            },
-                            {
-                                question: "Quels sont les tarifs des consultations ?",
-                                answer:
-                                    "Le tarif standard d’une consultation est de 60 €. Les consultations à domicile sont proposées à 70 €. Pour les partenariats avec les entreprises et clubs sportifs, un tarif préférentiel de 50€ est appliqué."
                             },
                             {
                                 question: "Quels moyens de paiement acceptez-vous ?",
