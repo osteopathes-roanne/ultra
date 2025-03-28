@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-gray-900;
+    background-color: #f8fafb;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-[#C1DCEF] text-gray-800 hover:bg-[#a5cbe5];
+  }
+  
+  .btn-secondary {
+    @apply bg-[#C7DFD1] text-gray-800 hover:bg-[#b1d1c2];
+  }
+
+  .section-shape {
+    @apply absolute w-96 h-96 rounded-full opacity-50;
+  }
+
+  .section-shape-blue {
+    background-color: #C1DCEF;
+  }
+
+  .section-shape-green {
+    background-color: #C7DFD1;
+  }
+}
