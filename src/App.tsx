@@ -206,7 +206,7 @@ function App() {
                             </div>
                         </div>
 
-                    </div>
+
 
                     {/* Nouvelle card : Notre Établissement en pleine largeur */}
                     <div className="bg-white rounded-2xl p-6 shadow-lg md:col-span-2">
@@ -217,7 +217,7 @@ function App() {
                                 {src: "./batiment.jpg", alt: "Bâtiment L'Ultra", label: "Bâtiment L'Ultra"},
                                 {src: "./salle.jpg", alt: "Salle de Consultation", label: "Salle de Consultation"},
                                 {src: "./attente.jpg", alt: "Salle d'attente", label: "Salle d'attente"},
-                                {src: "./salle.jpg", alt: "Salle de console", label: "2e Salle de Consultation"}
+                                {src: "./sale2.jpg", alt: "Salle de console", label: "2e Salle de Consultation"}
                             ].map((item, index) => (
                                 <div key={index}>
                                     <div className="w-full aspect-video rounded-lg overflow-hidden shadow-md">
@@ -233,7 +233,7 @@ function App() {
                         </div>
                     </div>
 
-
+                    </div>
                     {/* Deuxième rangée : Contacts individuels */}
                     <div className="grid md:grid-cols-2 gap-8 mt-8">
                         {/* Contact Morann */}
