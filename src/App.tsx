@@ -104,7 +104,8 @@ function App() {
                                 name: "Morann DURAND",
                                 image: "./durand.png",
                                 description:
-                                    "Diplômé du CEESO Lyon en 2015, j’ai approfondi mes compétences avec un D.U. en Soins d’urgences en milieu sportif. Je mets mon expérience de basketteur au service des sportifs, mais aussi de toutes les personnes actives. Formé en gestes et posture, j’accompagne également les entreprises et leurs collaborateurs dans la prévention des troubles musculo-squelettiques (TMS) dans le but de préserver le bien-être au travail. Je me forme régulièrement pour enrichir mes compétences et offrir à mes patients les soins les plus adaptés à leurs besoins."
+                                    "Diplômé du CEESO Lyon en 2015, j’ai approfondi mes compétences avec un D.U. en Soins d’urgences en milieu sportif et je me forme régulièrement pour continuer à améliorer la prise en charge de mes patients. Je mets mon expérience au service de mes patients, en adaptant ma prise en charge selon les motifs de consultation. \n" +
+                                    "Formé en gestes et posture, j’accompagne également les entreprises et leurs collaborateurs dans la prévention des troubles musculo-squelettiques (TMS) dans le but de préserver le bien-être au travail."
                             },
                             {
                                 name: "Phèdre PETELET",
@@ -123,7 +124,7 @@ function App() {
                                     {osteo.name}
                                 </h3>
                                 <p className="text-sm text-gray-500 mb-2">Ostéopathe D.O.</p>
-                                <p className="text-gray-600 mt-2">{osteo.description}</p>
+                                <p className="text-gray-600 mt-2 text-justify">{osteo.description}</p>
                             </div>
                         ))}
                     </div>
