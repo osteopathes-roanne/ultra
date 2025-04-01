@@ -194,7 +194,7 @@ function App() {
                                 <div>
                                     <div className="w-full h-full">
                                         <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.7498239111402!2d4.084773854398087!3d46.050536498270446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f40f37f4aa8f2b%3A0xa4e33d9019fc01f1!2sUltra!5e0!3m2!1sfr!2sfr!4v1743158427167!5m2!1sfr!2sfr"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d692.2567963238781!2d4.084121928621803!3d46.0505559981856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f40f59879a5ab9%3A0x2b751572394a2ab8!2sPh%C3%A8dre%20PETELET%20EI%20-%20Ost%C3%A9opathe%20D.O.%20-%20Roanne!5e0!3m2!1sen!2sfr!4v1743537403585!5m2!1sen!2sfr"
                                             width="100%"
                                             height="100%"
                                             style={{border: 0}}
@@ -208,12 +208,11 @@ function App() {
                         </div>
 
 
-
-                    {/* Nouvelle card : Notre Établissement en pleine largeur */}
-                    <div className="bg-white rounded-2xl p-6 shadow-lg md:col-span-2">
-                        <Building className="w-8 h-8 text-[#C7DFD1] mb-4"/>
-                        <h3 className="text-2xl font-display font-semibold mb-4">Notre Établissement</h3>
-                        <div className="grid md:grid-cols-4 gap-4">
+                        {/* Nouvelle card : Notre Établissement en pleine largeur */}
+                        <div className="bg-white rounded-2xl p-6 shadow-lg md:col-span-2">
+                            <Building className="w-8 h-8 text-[#C7DFD1] mb-4"/>
+                            <h3 className="text-2xl font-display font-semibold mb-4">Notre Établissement</h3>
+                            <div className="grid md:grid-cols-4 gap-4">
                             {[
                                 {src: "./batiment.jpg", alt: "Bâtiment L'Ultra", label: "Bâtiment L'Ultra"},
                                 {src: "./salle.jpg", alt: "Salle de Consultation", label: "Salle de Consultation"},
