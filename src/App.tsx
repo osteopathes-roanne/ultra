@@ -166,7 +166,7 @@ function App() {
                                 Consultation à domicile : <span className="font-semibold">70€</span><br/>
                                 Partenariats (entreprises, clubs sportifs) : <span className="font-semibold">50€</span>
                             </p>
-                            <p className="text-gray-600" style={{ textAlign: 'justify' }}>
+                            <p className="text-gray-600" style={{textAlign: 'justify'}}>
                                 * renseignez vous auprès de votre mutuelle pour remboursement
                             </p>
                         </div>
@@ -213,30 +213,30 @@ function App() {
                             <Building className="w-8 h-8 text-[#C7DFD1] mb-4"/>
                             <h3 className="text-2xl font-display font-semibold mb-4">Notre Établissement</h3>
                             <div className="grid md:grid-cols-4 gap-4">
-                            {[
-                                {src: "./batiment.jpg", alt: "Bâtiment L'Ultra", label: "Bâtiment L'Ultra"},
-                                {src: "./salle.jpg", alt: "Salle de Consultation", label: "Salle de Consultation"},
-                                {src: "./attente.jpg", alt: "Salle d'attente", label: "Salle d'attente"},
-                                {src: "./sale2.jpg", alt: "Salle de console", label: "2e Salle de Consultation"}
-                            ].map((item, index) => (
-                                <div key={index}>
-                                    <div className="w-full aspect-video rounded-lg overflow-hidden shadow-md">
-                                        <img
-                                            src={item.src}
-                                            alt={item.alt}
-                                            className="w-full h-full object-cover"
-                                        />
+                                {[
+                                    {src: "./batiment.jpg", alt: "Bâtiment L'Ultra", label: "Bâtiment L'Ultra"},
+                                    {src: "./salle.jpg", alt: "Salle de Consultation", label: "Salle de Consultation"},
+                                    {src: "./attente.jpg", alt: "Salle d'attente", label: "Salle d'attente"},
+                                    {src: "./sale2.jpg", alt: "Salle de console", label: "2e Salle de Consultation"}
+                                ].map((item, index) => (
+                                    <div key={index}>
+                                        <div className="w-full aspect-video rounded-lg overflow-hidden shadow-md">
+                                            <img
+                                                src={item.src}
+                                                alt={item.alt}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <p className="text-center mt-2 text-gray-600">{item.label}</p>
                                     </div>
-                                    <p className="text-center mt-2 text-gray-600">{item.label}</p>
-                                </div>
-                            ))}
+                                ))}
+                            </div>
                         </div>
-                    </div>
 
                     </div>
                     {/* Deuxième rangée : Contacts individuels */}
                     <div className="grid md:grid-cols-2 gap-8 mt-8">
-                        {/* Contact Morann */}
+                    {/* Contact Morann */}
                         <div className="bg-[#C7DFD1] rounded-2xl p-6 shadow-lg">
                             <h3 className="text-xl font-display font-semibold mb-4">Morann Durand</h3>
                             <div className="flex items-center gap-2">
