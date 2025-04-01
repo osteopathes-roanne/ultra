@@ -83,7 +83,7 @@ function App() {
                             RDV avec Morann Durand
                         </a>
                         <a
-                            href="https://www.doctolib.fr/osteopathe/roanne/phedre_petelet-roanne"
+                            href="https://www.doctolib.fr/osteopathe/roanne/phedre-petelet-roanne"
                             className="btn btn-primary text-lg py-3 px-8"
                         >
                             RDV avec Phèdre Petelet
