@@ -460,7 +460,7 @@ function App() {
                             {
                                 question: "Combien de séances sont nécessaires ?",
                                 answer:
-                                    "Le nombre de séances varie selon plusieurs facteurs tels que le ou les motifs consultations, l'évolution de la situation, ou encore vos besoins spécifiques... C'est en discutant ensemble que vous et votre ostéopathe pourrez déterminer le nombre et la fréquence de séances les plus adaptés à votre situation."
+                                    "Le nombre de séances varie selon plusieurs facteurs tels que le ou les motifs de consultations, l'évolution de la situation, ou encore vos besoins spécifiques... C'est en discutant ensemble que vous et votre ostéopathe pourrez déterminer le nombre et la fréquence de séances les plus adaptés à votre situation."
                             },
                             {
                                 question: "Est-ce que les manipulations sont douloureuses ?",
