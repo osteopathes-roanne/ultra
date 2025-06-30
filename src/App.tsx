@@ -188,6 +188,7 @@ function App() {
                                         <li className="font-semibold">1er étage avec ascenseur</li>
                                         <li className="font-semibold">Parking gratuit</li>
                                         <li className="font-semibold">Accès facile via la voie rapide</li>
+                                        <li className="font-semibold">Établissement climatisé</li>
                                     </ul>
                                 </div>
                                 {/* Colonne droite : carte */}
