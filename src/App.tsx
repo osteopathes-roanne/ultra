@@ -111,7 +111,7 @@ function App() {
                                 name: "Phèdre PETELET",
                                 image: "./phedre.jpeg",
                                 description:
-                                    "Diplômée du CEESO Lyon en 2024, j’accompagne des patients de tous âges, des nourrissons aux séniors, en adaptant mes soins aux besoins spécifiques de chacun. Je prends le temps d’expliquer chaque geste afin que mes patients comprennent pleinement leur traitement. Attachée à une pratique éthique et actualisée, je me tiens informée en continu des avancées scientifiques. Pour les personnes ayant des difficultés à se déplacer, je propose également des consultations à domicile."
+                                    "Diplômée du CEESO Lyon en 2024, je vous accompagne à tous les âges, du nourrisson au sénior, en adaptant mes soins aux besoins spécifiques de chacun. Je prends le temps d’expliquer chaque geste afin que mes patients comprennent pleinement leur traitement. Attachée à une pratique éthique et actualisée, je me tiens informée en continu des avancées scientifiques. Je suis également formée au k-tape (aussi appelé kinesiotape ou bande de kinésiologie), utilisé en complément lorsque sa mise en place présente un intérêt clinique. Pour les personnes ayant des difficultés à se déplacer, je propose également des consultations à domicile."
                             }
                         ].map((osteo, index) => (
                             <div key={index} className="bg-white rounded-2xl shadow-lg text-center p-6">
